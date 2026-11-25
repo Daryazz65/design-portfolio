@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Четыре проекта по графическому и веб-дизайну: журнальная обложка, карточка Wildberries, логотип и лендинг.">
+  <meta name="description" content="Шесть проектов по графическому и веб-дизайну: от журнальной обложки до интерактивной 3D-комнаты и интерфейса диспетчера.">
   <meta name="theme-color" content="#171817">
   <title>Портфолио — графический и веб-дизайн</title>
-  <link rel="stylesheet" href="styles.css?v=2">
-  <script src="gallery.js" defer></script>
+  <link rel="stylesheet" href="styles.css?v=3">
+  <script src="gallery.js?v=3" defer></script>
 </head>
 <body id="top">
   <header class="header shell">
@@ -21,7 +21,7 @@
     <section class="intro" aria-labelledby="intro">
       <div class="intro-copy">
         <h1 id="intro">Графический<br>и <em>веб-дизайн</em></h1>
-        <p>От журнальной обложки до первого экрана сайта. Четыре концептуальных проекта.</p>
+        <p>Шесть проектов. От журнальной обложки до интерактивной 3D-комнаты и рабочего интерфейса.</p>
       </div>
       <div class="intro-art" aria-hidden="true">
         <img src="assets/cabin-detail.webp" width="900" height="605" alt="" fetchpriority="high">
@@ -47,6 +47,24 @@
           <a class="project-link" href="assets/obzhig.webp" data-project="obzhig" aria-label="Обжиг — посмотреть логотип">
             <div class="visual"><img src="assets/obzhig.webp" width="1200" height="820" alt="Терракотовый логотип Обжиг и его версии" loading="lazy"></div>
             <div class="project-name"><h3>Обжиг</h3><span>Логотип</span><span class="open" aria-hidden="true">+</span></div>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section class="work-section" id="web-design" aria-labelledby="web-design-title">
+      <h2 id="web-design-title">Веб и интерфейсы</h2>
+      <div class="work-grid">
+        <article class="project project-room" id="room">
+          <a class="project-link" href="https://daryazz65.github.io/frameTamer-gta6-memory-room/" data-project="room" aria-label="Комната воспоминаний — посмотреть проект">
+            <div class="visual"><img src="assets/room.webp" width="1280" height="720" alt="Интерьер интерактивной комнаты с цветной подсветкой" loading="lazy"></div>
+            <div class="project-name"><h3>Комната воспоминаний</h3><span>Интерактивная 3D-сцена · демо</span><span class="open" aria-hidden="true">+</span></div>
+          </a>
+        </article>
+        <article class="project project-dispatcher" id="dispatcher">
+          <a class="project-link" href="assets/dispatcher-results.webp" data-project="dispatcher" aria-label="Интерфейс диспетчера — посмотреть три экрана">
+            <div class="visual"><img src="assets/dispatcher-results.webp" width="1260" height="720" alt="Демонстрационный экран результатов поиска в интерфейсе диспетчера" loading="lazy"></div>
+            <div class="project-name"><h3>Интерфейс диспетчера</h3><span>UX/UI · 3 экрана</span><span class="open" aria-hidden="true">+</span></div>
           </a>
         </article>
         <article class="project project-site" id="bereg">
@@ -82,7 +100,7 @@
       </div>
       <aside class="case-notes">
         <p class="case-description"></p>
-        <div class="thumbnails" aria-label="Слайды карточки" hidden></div>
+        <div class="thumbnails" aria-label="Изображения проекта" hidden></div>
         <a class="case-action" hidden></a>
       </aside>
     </div>
