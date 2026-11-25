@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Четыре проекта по графическому и веб-дизайну: журнальная обложка, карточка Wildberries, логотип и лендинг.">
+  <meta name="theme-color" content="#171817">
+  <title>Портфолио — графический и веб-дизайн</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="gallery.js" defer></script>
+</head>
+<body id="top">
+  <header class="header shell">
+    <a class="brand" href="#top">Портфолио<span>.</span></a>
+    <a href="#works">Работы</a>
+  </header>
+  <main class="shell">
+    <section class="intro" aria-labelledby="intro">
+      <div class="intro-copy">
+        <h1 id="intro">Графический<br>и <em>веб-дизайн</em></h1>
+        <p>От журнальной обложки до первого экрана сайта. Четыре концептуальных проекта.</p>
+      </div>
+      <div class="intro-art" aria-hidden="true">
+        <img src="assets/cabin-detail.webp" width="900" height="605" alt="" fetchpriority="high">
+      </div>
+    </section>
+
+    <section class="work-section" id="works" aria-labelledby="works-title">
+      <h2 id="works-title">Работы</h2>
+      <div class="work-grid">
+        <article class="project project-cover" id="srez">
+          <a class="project-link" href="assets/srez.webp" data-project="srez" aria-label="Срез — посмотреть обложку журнала">
+            <div class="visual"><img src="assets/srez.webp" width="1080" height="1440" alt="Обложка журнала Срез с бетонной стеной и резкой тенью"></div>
+            <div class="project-name"><h3>Срез</h3><span>Обложка журнала</span><span class="open" aria-hidden="true">+</span></div>
+          </a>
+        </article>
+        <article class="project project-lamp" id="luma">
+          <a class="project-link" href="assets/luma-main.webp" data-project="luma" aria-label="Luma Dome — открыть галерею из четырёх слайдов">
+            <div class="visual"><img src="assets/luma-main.webp" width="1080" height="1440" alt="Карточка жёлтой беспроводной лампы Luma Dome"></div>
+            <div class="project-name"><h3>Luma Dome</h3><span>Карточка Wildberries · 4 слайда</span><span class="open" aria-hidden="true">+</span></div>
+          </a>
+        </article>
+        <article class="project project-logo" id="obzhig">
+          <a class="project-link" href="assets/obzhig.webp" data-project="obzhig" aria-label="Обжиг — посмотреть логотип">
+            <div class="visual"><img src="assets/obzhig.webp" width="1200" height="820" alt="Терракотовый логотип Обжиг и его версии" loading="lazy"></div>
+            <div class="project-name"><h3>Обжиг</h3><span>Логотип</span><span class="open" aria-hidden="true">+</span></div>
+          </a>
+        </article>
+        <article class="project project-site" id="bereg">
+          <a class="project-link" href="tihiy-bereg.html" data-project="bereg" aria-label="Тихий берег — посмотреть макет сайта">
+            <div class="visual"><img src="assets/bereg.webp" width="1440" height="1050" alt="Макет сайта Тихий берег с фотографией карельского домика" loading="lazy"></div>
+            <div class="project-name"><h3>Тихий берег</h3><span>Макет сайта</span><span class="open" aria-hidden="true">+</span></div>
+          </a>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="footer shell"><span>Графический и веб-дизайн · 2026</span><a href="#top">К началу</a></footer>
+
+  <dialog class="case" aria-labelledby="case-title">
+    <header class="case-header">
+      <div><p class="case-category"></p><h2 id="case-title"></h2></div>
+      <form method="dialog"><button class="close" aria-label="Закрыть просмотр">×</button></form>
+    </header>
+    <div class="case-content">
+      <div class="case-media">
+        <figure><img class="case-image" alt=""><figcaption class="caption"></figcaption></figure>
+        <div class="gallery-controls" hidden>
+          <button type="button" class="prev">Назад</button><output class="slide-position" aria-live="polite"></output><button type="button" class="next">Далее</button>
+        </div>
+      </div>
+      <aside class="case-notes">
+        <p class="case-description"></p>
+        <div class="thumbnails" aria-label="Слайды карточки" hidden></div>
+        <a class="case-action" hidden></a>
+      </aside>
+    </div>
+  </dialog>
+</body>
+</html>

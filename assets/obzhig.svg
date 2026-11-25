@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 572 158" role="img" aria-labelledby="title">
+<title id="title">Обжиг — логотип керамической мастерской</title>
+<g fill="#A5452D" transform="translate(22 25) scale(1.05)"><path fill-rule="evenodd" d="M4 99V50C4 24.6 24.6 4 50 4s46 20.6 46 46v49H4Zm15-43c1.7 15.6 14.9 28 31 28s29.3-12.4 31-28H19Zm12-10h38c-1.6-9.1-9.5-16-19-16s-17.4 6.9-19 16Z"/></g>
+<g fill="none" stroke="#A5452D" stroke-width="8" stroke-linecap="square" stroke-linejoin="round" transform="translate(157 42)">
+  <ellipse cx="32" cy="37" rx="30" ry="35"/>
+  <path transform="translate(84)" d="M50 2H2v70h29c15 0 24-7 24-20s-9-20-24-20H2"/>
+  <path transform="translate(157)" d="M2 2l35 35L2 72m39-70v70M80 2 45 37l35 35"/>
+  <path transform="translate(257)" d="M2 2v70L57 2v70"/>
+  <path transform="translate(335)" d="M2 72V2h46"/>
+</g>
+
+</svg>
