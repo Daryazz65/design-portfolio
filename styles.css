@@ -98,7 +98,7 @@ img { display: block; width: 100%; }
   .thumbnails { max-width: 300px; }
 }
 @media (max-width: 360px) {
-  .work-grid { grid-template-columns: 1fr; }
+  .work-grid { grid-template-columns: minmax(0, 1fr); }
   .visual { height: 260px; }
 }
 @media (prefers-reduced-motion: reduce) {
